@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width" />
+<title>音の勉強</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+<meta name="viewport" content="width=device-width,intial-scale=1.0">
+</head>
+<body>
+  <img style="width:429px;height:720px;"src="eki.jpg">
+  <img style="width:396px;height:586px;position:absolute;left:600px;top:100px;"src="doa.jpg">
+ <div style="width:80px;height:80px;position:absolute;left:270px;top:420px;background-color:!black;"onclick="ring()"></div>
+ <div style="width:80px;height:80px;position:absolute;left:270px;top:530px;background-color:!red;"onclick="stop()"></div>
+ <div style="width:30px;height:30px;position:absolute;left:705px;top:190px;background-color:!pink;"onclick="ooe()"></div>
+ <div style="width:30px;height:30px;position:absolute;left:701px;top:560px;background-color:!pink;"onclick="cll()"></div>
+  <audio id="tts">
+    <source src="JR-SH5.mp3"type="audio/mp3">
+    </audio>
+  <audio id="ttd">
+    <source src="hh.mp3"type="audio/mp3">
+    </audio>
+  <audio id="do1">
+    <source src="doa1.mp3"type="audio/mp3">
+  </audio>
+  <audio id="do2">
+    <source src="doa2.mp3"type="audio/mp3">
+    </audio>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script type="text/javascript" src="音.js"></script>
+
+  </body>
+</html>
